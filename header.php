@@ -15,8 +15,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="KM Tooling is a leader in precision mold design and manufacturing, trim die fabrication, and custom precision machining. Our expertise is key in turning your ideas into reality, successfully and on-time. We credit our expertise to our Journeyman Tool and Die Makers, Engineers, Pattern Makers, Jig and Fixture makers, and Machinists who in total have more than 250 years in the industry.">
+    <meta name="keywords" content="mold design, manufacturing, trim die fabrication custom precision machining, machining, custom machining, die makers, jig makers, fixture makers, machinists, tool makers, vertical machining, sinker and wire edm, cnc turning, surface grinding, welding, cnc milling, km tooling, km tool, kmt delivers, rubber industry, polyurethane industry, mold construction, Knuth Machine Tool">
     <meta name="author" content="Foresite Group">
     
     <meta name="viewport" content="width=device-width">
