@@ -118,7 +118,7 @@ $salt = "ForesiteGroupKMTooling";
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
           center: MyLatLng,
-          zoom: 13,
+          zoom: 15,
           disableDefaultUI: true,
           zoomControl: true,
           zoomControlOptions: {
@@ -132,7 +132,9 @@ $salt = "ForesiteGroupKMTooling";
         map.set('styles', [
           {
             stylers: [
-              { hue: '#1B75BB' }
+              //{ hue: '#1B75BB' },
+              { "saturation": -100 },
+              { "visibility": "simplified" }
             ]
           }
         ]);
@@ -140,7 +142,7 @@ $salt = "ForesiteGroupKMTooling";
         var marker = new google.maps.Marker({
           position: MyLatLng,
           map: map,
-          icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+          icon: 'images/map-pin.png' //'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
         });
 
         var infowindow = new google.maps.InfoWindow({
