@@ -71,18 +71,22 @@ function email($address, $name="") {
       <p class="cycle-pager"></p>
       <div style="background: url(images/home-banner1.jpg) top center no-repeat;">
         <div>
-          <h1>CUSTOM PRECISION MACHINING</h1>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
-          <br>
-          <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+          <div>
+            <h1>CUSTOM PRECISION MACHINING</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
+            <br>
+            <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+          </div>
         </div>
       </div>
     </div>
     <?php } else { ?>
     <div id="subheader">
-      <article>
-        <?php echo $PageTitle; ?>
-      </article>
+      <div>
+        <article>
+          <?php echo $PageTitle; ?>
+        </article>
+      </div>
     </div>
     <?php } ?>
     <div class="metal <?php if (($PageTitle == "") || ($MetalWhite != "")) echo "metal-home" ?>"></div>

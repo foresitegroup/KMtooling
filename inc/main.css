@@ -280,12 +280,15 @@ ARTICLE {
 .cycle-slideshow DIV {
   width: 100%;
   height: 335px;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
 
 .cycle-slideshow DIV DIV {
+  display: table;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.cycle-slideshow DIV DIV DIV {
   margin: 0 auto;
   padding-right: 310px;
   width: 670px;
@@ -294,9 +297,8 @@ ARTICLE {
   font-size: 114.28%;
   line-height: 1.5em;
   text-shadow: 1px 1px #000000;
-  position: relative;          /* vertical centering */
-  top: 50%;                    /* vertical centering */
-  transform: translateY(-50%); /* vertical centering */
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .cycle-slideshow DIV DIV H1 {
@@ -337,12 +339,24 @@ ARTICLE {
 
 #subheader {
   height: 2.76em;
-  line-height: 2.76em;
+  line-height: 1em;
   border-top: 7px solid #000000;
   background: #1B75BB;
   color: #FFFFFF;
   font-family: 'outageregular';
   font-size: 328.57%;
+}
+
+#subheader DIV {
+  display: table;
+  width: 1000px;
+  height: 2.76em;
+  margin: 0 auto;
+}
+
+#subheader DIV ARTICLE {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .metal {
@@ -699,8 +713,9 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
   /* Small computer or landscape tablet */
   HEADER,
   ARTICLE,
-  FOOTER {
-    width: 98%;
+  FOOTER,
+  #subheader DIV {
+    width: 96%;
   }
 
   #menu UL {
@@ -717,6 +732,10 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
   .cycle-slideshow DIV DIV {
     width: 95%;
+  }
+
+  .cycle-slideshow DIV DIV DIV {
+    width: 100%;
     padding-right: 0;
   }
 
@@ -977,5 +996,14 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
     color: #FFFFFF;
     background: rgb(27, 117, 187); /* Fallback for older browsers without RGBA-support */
     background: rgba(27, 117, 187, 0.7); /*background: #1B75BB;*/
+  }
+
+  #contact INPUT[type=text],
+  #contact TEXTAREA {
+    width: 90%;
+  }
+
+  .gray H1 {
+    font-size: 195%;
   }
 }
