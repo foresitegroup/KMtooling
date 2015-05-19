@@ -26,7 +26,7 @@ function email($address, $name="") {
     
     <script type="text/javascript" src="inc/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="inc/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
+    <!--<script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>-->
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -60,6 +60,8 @@ function email($address, $name="") {
           <li><a href="about.php">ABOUT US</a></li>
           <li><a href="services.php">SERVICES</a></li>
           <li><a href="contact.php">CONTACT US</a></li>
+          <li class="mobile"><a href="careers.php">CAREERS</a></li>
+          <li class="mobile menublue">262-377-1677 &nbsp; / &nbsp; <a href="#">LinkedIn</a></li>
         </ul>
       </nav>
     </header>
@@ -71,22 +73,6 @@ function email($address, $name="") {
         <div>
           <h1>CUSTOM PRECISION MACHINING</h1>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
-          <br>
-          <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
-        </div>
-      </div>
-      <div style="background: url(images/home-banner2.jpg) top center no-repeat;">
-        <div>
-          <h1>DON'T USE THIS IMAGE</h1>
-          Bacon ipsum dolor amet swine kevin beef fatback. Drumstick sausage kielbasa porchetta, leberkas brisket pork ham beef. Tri-tip doner short loin cupim short ribs.<br>
-          <br>
-          <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
-        </div>
-      </div>
-      <div style="background: url(images/home-banner3.jpg) top center no-repeat;">
-        <div>
-          <h1>REPLACE THIS IMAGE TOO</h1>
-          Meatball ground round cupim, rump bresaola fatback ball tip. Tongue fatback drumstick prosciutto boudin capicola salami jerky jowl sirloin rump bacon.<br>
           <br>
           <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
         </div>

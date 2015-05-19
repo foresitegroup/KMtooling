@@ -101,8 +101,66 @@ $salt = "ForesiteGroupKMTooling";
   </div>
 
   <div class="half-right">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function ViewLargerMap(VLMa, map) {
+        var VLMui = document.createElement('a');
+        VLMui.style.cursor = 'pointer';
+        VLMui.href = 'https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024';
+        VLMui.target = 'new';
+        VLMui.innerHTML = 'View larger map';
+        VLMui.style.marginLeft = '7px';
+        VLMa.appendChild(VLMui);
+      }
+
+      function initialize() {
+        var MyLatLng = new google.maps.LatLng(43.312895,-87.954785);
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: MyLatLng,
+          zoom: 13,
+          disableDefaultUI: true,
+          zoomControl: true,
+          zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.SMALL,
+            position: google.maps.ControlPosition.RIGHT_BOTTOM
+          },
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        map.set('styles', [
+          {
+            stylers: [
+              { hue: '#1B75BB' }
+            ]
+          }
+        ]);
+        
+        var marker = new google.maps.Marker({
+          position: MyLatLng,
+          map: map,
+          icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+          content: '<div id="content"><div id="bodyContent"><strong>KM Tooling</strong><br>1668 9th Avenue<br>Grafton, WI 53024<br><a href="https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024" target="new">View larger map</a></div></div>'
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+        
+        var vlmDiv = document.createElement('div');
+        var vlm = new ViewLargerMap(vlmDiv, map);
+        vlmDiv.index = 1;
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(vlmDiv);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <div class="embed">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23224.73007558976!2d-87.95514999999999!3d43.312349000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804ef6036429a8b%3A0xc0b7a597ba2145b4!2s1668+9th+Ave%2C+Grafton%2C+WI+53024!5e0!3m2!1sen!2sus!4v1431706693328" width="600" height="450" frameborder="0" style="border:0"></iframe>
+      <div id="map-canvas"></div>
     </div>
     <br>
 
