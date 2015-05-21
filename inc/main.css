@@ -301,7 +301,7 @@ ARTICLE {
   vertical-align: middle;
 }
 
-.cycle-slideshow DIV DIV H1 {
+.cycle-slideshow DIV DIV DIV H1 {
   margin-top: 0;
   font-family: 'outagecut';
   font-size: 231.29%;
@@ -309,10 +309,14 @@ ARTICLE {
   text-shadow: none;
 }
 
-.cycle-slideshow DIV DIV A {
+.cycle-slideshow DIV DIV DIV A {
   font-weight: bold;
   font-size: 87.8%;
   text-shadow: none;
+}
+
+.cycle-slideshow DIV DIV DIV A:hover {
+  color: #A0A0A0;
 }
 
 .cycle-pager { 

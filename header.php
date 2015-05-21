@@ -73,9 +73,9 @@ function email($address, $name="") {
         <div>
           <div>
             <h1>CUSTOM PRECISION MACHINING</h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
+            KM Tooling's expertise in precision mold making translates to our common-sense approach in providing cost-effective solutions with fast turnaround.<br>
             <br>
-            <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+            <a href="services.php">READ MORE <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
       </div>
