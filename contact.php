@@ -53,7 +53,7 @@ $salt = "ForesiteGroupKMTooling";
       }
     } else {
     ?>
-    Please contact us for a quote and/or for more information or call us at <strong>(262) 377-1677</strong>.<br>
+    Please contact us for a quote and/or for more information, or call us at <strong>(262) 377-1677</strong>.<br>
     <br>
     
     <span style="font-size: 80%;">* Required fields</span><br>

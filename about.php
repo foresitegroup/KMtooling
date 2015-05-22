@@ -12,7 +12,10 @@ include "header.php";
     </div>
 
     <div class="half-right">
-      <img src="images/about1.jpg" alt="">
+      <img src="images/about1.jpg" alt="KM Tooling was originally known as Knuth Machine &amp; Tool and was established in Grafton, WI.">
+      <div style="font-size: 70%; font-style: italic; text-align: center; line-height: 1.3em;">
+        KM Tooling was originally known as Knuth Machine &amp; Tool and was established in Grafton, WI.
+      </div>
     </div>
 
     <div style="clear: both;"></div>

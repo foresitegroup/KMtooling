@@ -4,7 +4,7 @@
         <div class="footer-left">
           <h2>RELIABLE QUALITY</h2>
 
-          Formerly Knuth Machine Tool, KMT has been designing &amp; manufacturing precision molds, tools, and trim dies since 1960. Our up-to-date experience &amp; well-maintained equipment results in reliable quality.
+          Formerly Knuth Machine Tool, KMT has been designing &amp; manufacturing precision molds, tools, and trim dies since 1960. Our experience &amp; well-maintained equipment results in reliable quality.
 
           <a href="about.php" class="more">DISCOVER MORE <i class="fa fa-chevron-right"></i></a>
         </div>
