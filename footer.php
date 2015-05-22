@@ -47,7 +47,7 @@
         <a href="services.php">SERVICES</a>
         <a href="contact.php">CONTACT US</a>
 
-        <a href="#" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.linkedin.com/company/km-tooling" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
       </div>
 
       <div style="clear: both;"></div>

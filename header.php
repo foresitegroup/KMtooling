@@ -45,7 +45,7 @@ function email($address, $name="") {
       <a href="."><img src="images/logo.png" alt="KM Tooling" id="logo"></a>
 
       <div id="topmenu">
-        262-377-1677 | <a href="careers.php">Careers</a> | <a href="contact.php">Email Us</a> <a href="#" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
+        262-377-1677 | <a href="careers.php">Careers</a> | <a href="contact.php">Email Us</a> <a href="https://www.linkedin.com/company/km-tooling" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
       </div>
 
       <form class="search" method="POST" action="search.php">
@@ -61,7 +61,7 @@ function email($address, $name="") {
           <li><a href="services.php">SERVICES</a></li>
           <li><a href="contact.php">CONTACT US</a></li>
           <li class="mobile"><a href="careers.php">CAREERS</a></li>
-          <li class="mobile menublue">262-377-1677 &nbsp; / &nbsp; <a href="#">LinkedIn</a></li>
+          <li class="mobile menublue">262-377-1677 &nbsp; / &nbsp; <a href="https://www.linkedin.com/company/km-tooling">LinkedIn</a></li>
         </ul>
       </nav>
     </header>
