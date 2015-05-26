@@ -10,21 +10,21 @@ $salt = "ForesiteGroupKMTooling";
 
 <div class="gray">
   <article>
-    <h1>CHOOSE TO WORK AT KM TOOLING</h1>
+    <h1>CHOOSE TO WORK AT KM&nbsp;TOOLING</h1>
 
-    At <strong>KM Tooling</strong>, every decision made, every capital purchase, and every long-term strategy implemented is done with one goal in mind, to make KM Tooling "a place where great people choose to work." If you are looking for a great company, you've come to the right place.
+    At <strong>KM&nbsp;Tooling</strong>, every decision made, every capital purchase, and every long-term strategy implemented is done with one goal in mind, to make KM Tooling "a place where great people choose to work." If you are looking for a great company, you've come to the right place.
   </article>
 </div>
 
 <article>
   <h2>THIS IS YOUR COMPANY</h2>
-  As a wholly-owned subsidiary of Molded Dimensions, Inc., every KM Tooling team member becomes part of the ESOP (employee stock ownership plan).  Our employees own a share of the company, making each invested in our success.<br>
+  As a wholly-owned subsidiary of Molded Dimensions, Inc., every KM&nbsp;Tooling team member becomes part of the ESOP (employee stock ownership plan).  Our employees own a share of the company, making each invested in our success.<br>
   <br>
 
   Our team's shared values include teamwork, safety, giving 100%, respect, and diversity.  We recognize that great people delivering exceptional product on-time for our customers is key to our long-term success.  As an employee of KM Tooling, you will find a rewarding career as part of our family.<br>
   <br>
 
-  <strong><em>KM Tooling is an Equal Opportunity Employer</em></strong><br>
+  <strong><em>KM&nbsp;Tooling is an Equal Opportunity Employer</em></strong><br>
   <br>
 
   <strong class="bluehead">Basic Requirements</strong><br>

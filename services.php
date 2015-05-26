@@ -8,7 +8,7 @@ include "header.php";
     <div class="half-left">
       <h1>Precision Molds, Forming Dies, Trim Dies &amp; Custom Machining</h1>
 
-      KM Tooling's capabilities have grown to support a wide variety of customers with innovative mold, cold forming die, trim die, and custom machining solutions.
+      KM&nbsp;Tooling's capabilities have grown to support a wide variety of customers with innovative mold, cold forming die, trim die, and custom machining solutions.
     </div>
 
     <div class="half-right">
@@ -30,7 +30,7 @@ include "header.php";
   <div class="half-left">
     <h2 id="molds-dies-fixtures">Molds, Dies, &amp; Fixtures</h2>
 
-    Specializing in molded rubber injection, compression, and transfer tooling, along with open cast and compression polyurethane tooling, KM Tooling supports thermoset elastomer molders with modern, high quality mold design and construction, mold revisions, and mold repairs.  Our experienced team provides design for manufacturability assistance to ensure a robust part design, an efficient molding process, and a durable tool for the life of the project. Molded rubber and cast polyurethane tools, designed and programmed in our resource center, are manufactured using up-to-date, well-maintained equipment in our tool factory.<br>
+    Specializing in molded rubber injection, compression, and transfer tooling, along with open cast and compression polyurethane tooling, KM&nbsp;Tooling supports thermoset elastomer molders with modern, high quality mold design and construction, mold revisions, and mold repairs.  Our experienced team provides design for manufacturability assistance to ensure a robust part design, an efficient molding process, and a durable tool for the life of the project. Molded rubber and cast polyurethane tools, designed and programmed in our resource center, are manufactured using up-to-date, well-maintained equipment in our tool factory.<br>
     <br>
 
     <h3>Rubber: Injection, Compression, Transfer</h3>
@@ -67,12 +67,12 @@ include "header.php";
     </ul>
     <br>
 
-    KM Tooling provides a full range of services for mold and die design and construction, along with the experienced team of Journeyman Tool and Die Makers, Engineers, Pattern Makers, Jig and Fixture Makers, and Machinists.<br>
+    KM&nbsp;Tooling provides a full range of services for mold and die design and construction, along with the experienced team of Journeyman Tool and Die Makers, Engineers, Pattern Makers, Jig and Fixture Makers, and Machinists.<br>
     <br>
     <br>
 
     <h2 id="metallic-non-metallic-dies">Metallic &amp; Non-Metallic Dies</h2>
-    Die casting trim dies are one of the most effective ways to trim unwanted "flash" from cast metal parts, saving as much as 15% in the part price by speeding up the die casting production process.  KM Tooling designers focus both on part and die optimization, improving finished part quality and reducing material usage and cycle times.  Our process begins with engineering input to design a part for efficient flash removal and includes functional testing as a standard part of our die design and manufacturing process.<br>
+    Die casting trim dies are one of the most effective ways to trim unwanted "flash" from cast metal parts, saving as much as 15% in the part price by speeding up the die casting production process.  KM&nbsp;Tooling designers focus both on part and die optimization, improving finished part quality and reducing material usage and cycle times.  Our process begins with engineering input to design a part for efficient flash removal and includes functional testing as a standard part of our die design and manufacturing process.<br>
     <br>
 
     <h3>Casting Trim Dies</h3>
@@ -94,7 +94,7 @@ include "header.php";
     </ul>
     <br>
 
-    KM Tooling dies are designed for accuracy, dependability, and longevity by our experienced designers.  KMT delivers the know-how and technology to reduce total cost of ownership.
+    KM&nbsp;Tooling dies are designed for accuracy, dependability, and longevity by our experienced designers.  KMT delivers the know-how and technology to reduce total cost of ownership.
   </div>
 
   <div class="half-right">
@@ -102,7 +102,7 @@ include "header.php";
     <br>
 
     <h2 id="custom-machining">Custom Machining</h2>
-    KM Tooling's expertise in precision mold making translates to our common-sense approach in providing cost-effective solutions with fast turnaround.  High-quality, short-run machined parts are manufactured using our multiple machining centers, including sinker and wire EDM.  Parts are inspected and certified to meet customer print specifications. From prototype to production, KM Tooling precision machining experts will work with you to develop your custom, precision-machined parts.<br>
+    KM&nbsp;Tooling's expertise in precision mold making translates to our common-sense approach in providing cost-effective solutions with fast turnaround.  High-quality, short-run machined parts are manufactured using our multiple machining centers, including sinker and wire EDM.  Parts are inspected and certified to meet customer print specifications. From prototype to production, KM&nbsp;Tooling precision machining experts will work with you to develop your custom, precision-machined parts.<br>
     <br>
 
     <ul>
