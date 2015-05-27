@@ -42,19 +42,19 @@ $salt = "ForesiteGroupKMTooling";
   Download, complete, and return the application for employment via email to <?php email("sales@kmtdelivers.com"); ?>, or by stopping by in person and completing an application.<br>
   <br>
 
-  <strong>&bull; Culture Index Survey (required)</strong><br>
+  <!-- <strong>&bull; Culture Index Survey (required)</strong><br>
   Complete the culture index survey on this website or by stopping by in person.<br>
-  <br>
+  <br> -->
 
   <strong>&bull; Resume (optional)</strong><br>
   You may submit your resume in addition to the application via email to <?php email("sales@kmtdelivers.com"); ?> or by stopping by in person.<br>
   <br>
   <br>
 
-  Please download <a href="pdf/KM_Tooling_Employment_Application.pdf">APPLICATION</a><br>
+  Please download <a href="pdf/KM_Tooling_Employment_Application.pdf">APPLICATION</a><!-- <br>
   <br>
 
-  Please complete <a href="https://cindexinc.com/job/ed2a8d">CULTURE INDEX SURVEY</a>
+  Please complete <a href="https://cindexinc.com/job/ed2a8d">CULTURE INDEX SURVEY</a> -->
 </article>
 
 <br>
