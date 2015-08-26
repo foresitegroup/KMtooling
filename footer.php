@@ -23,12 +23,12 @@
           <h2>LOCATION</h2>
 
           <h4>FACTORY</h4>
-          1668 9th Avenue<br>
+          2143 County Highway W<br>
           Grafton, WI 53024<br>
           <br>
 
           <h4>HEADQUARTERS</h4>
-          701 Sunset Road<br>
+          PO Box 529<br>
           Port Washington, WI 53074
         </div>
 

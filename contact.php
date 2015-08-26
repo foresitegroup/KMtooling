@@ -106,7 +106,8 @@ $salt = "ForesiteGroupKMTooling";
       function ViewLargerMap(VLMa, map) {
         var VLMui = document.createElement('a');
         VLMui.style.cursor = 'pointer';
-        VLMui.href = 'https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024';
+        //VLMui.href = 'https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024';
+        VLMui.href = 'https://www.google.com/maps/place/2143+County+Hwy+W,+Grafton,+WI+53024/@43.3548048,-87.9258743,13z/data=!3m1!4b1!4m2!3m1!1s0x8804e92f26641e1b:0x61d6a4681bb35da7';
         VLMui.target = 'new';
         VLMui.innerHTML = 'View larger map';
         VLMui.style.marginLeft = '7px';
@@ -114,7 +115,7 @@ $salt = "ForesiteGroupKMTooling";
       }
 
       function initialize() {
-        var MyLatLng = new google.maps.LatLng(43.312895,-87.954785);
+        var MyLatLng = new google.maps.LatLng(43.3548048,-87.9258743);
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
           center: MyLatLng,
@@ -146,7 +147,7 @@ $salt = "ForesiteGroupKMTooling";
         });
 
         var infowindow = new google.maps.InfoWindow({
-          content: '<div id="content"><div id="bodyContent"><strong>KM Tooling</strong><br>1668 9th Avenue<br>Grafton, WI 53024<br><a href="https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024" target="new">View larger map</a></div></div>'
+          content: '<div id="content"><div id="bodyContent"><strong>KM Tooling</strong><br>2143 County Highway W<br>Grafton, WI 53024<br><a href="https://www.google.com/maps/place/2143+County+Hwy+W,+Grafton,+WI+53024/@43.3548048,-87.9258743,13z/data=!3m1!4b1!4m2!3m1!1s0x8804e92f26641e1b:0x61d6a4681bb35da7" target="new">View larger map</a></div></div>'
         });
 
         google.maps.event.addListener(marker, 'click', function() {
@@ -170,14 +171,13 @@ $salt = "ForesiteGroupKMTooling";
     <br>
 
     <h3>FACTORY</h3>
-    1668 9th Avenue<br>
-    PO Box 145<br>
+    2143 County Highway W<br>
     Grafton, WI 53024<br>
     <br>
 
     <h3>HEADQUARTERS</h3>
-    701 Sunset Road<br>
-    Port Washington, WI 53204
+    PO Box 529<br>
+    Port Washington, WI 53074
   </div>
 
   <div style="clear: both;"></div>
