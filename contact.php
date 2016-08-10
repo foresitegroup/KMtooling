@@ -29,8 +29,9 @@ $salt = "ForesiteGroupKMTooling";
         // All required fields have been filled, so construct the message
         $SendTo = "sales@kmtdelivers.com";
         $Subject = "Message From KM Tooling Website";
-        $From = "From: Contact Form <contactform@kmtdelivers.com>\r\n";
-        $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+        $Headers = "Bcc: mark@foresitegrp.com\r\n";
+        $Headers .= "From: Contact Form <moldeddimensions@foresitegrp.com>\r\n";
+        $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
         
         $Message = "Message from " . $_POST[md5('fullname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
 
@@ -44,8 +45,7 @@ $salt = "ForesiteGroupKMTooling";
         
         $Message = stripslashes($Message);
         
-        mail($SendTo, $Subject, $Message, $From);
-        //echo "<pre>$Message</pre><br><br>";
+        mail($SendTo, $Subject, $Message, $Headers);
         
         echo "<strong>Your message has been sent!</strong><br>\n<br>\nThank you for your interest in KM Tooling.  You will be contacted shortly.";
       } else {
@@ -106,7 +106,6 @@ $salt = "ForesiteGroupKMTooling";
       function ViewLargerMap(VLMa, map) {
         var VLMui = document.createElement('a');
         VLMui.style.cursor = 'pointer';
-        //VLMui.href = 'https://maps.google.com/maps?ll=43.312349,-87.95515&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=1668%209th%20Ave%20Grafton%2C%20WI%2053024';
         VLMui.href = 'https://www.google.com/maps/place/2143+County+Hwy+W,+Grafton,+WI+53024/@43.3548048,-87.9258743,13z/data=!3m1!4b1!4m2!3m1!1s0x8804e92f26641e1b:0x61d6a4681bb35da7';
         VLMui.target = 'new';
         VLMui.innerHTML = 'View larger map';
@@ -133,7 +132,6 @@ $salt = "ForesiteGroupKMTooling";
         map.set('styles', [
           {
             stylers: [
-              //{ hue: '#1B75BB' },
               { "saturation": -100 },
               { "visibility": "simplified" }
             ]
@@ -143,7 +141,7 @@ $salt = "ForesiteGroupKMTooling";
         var marker = new google.maps.Marker({
           position: MyLatLng,
           map: map,
-          icon: 'images/map-pin.png' //'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+          icon: 'images/map-pin.png'
         });
 
         var infowindow = new google.maps.InfoWindow({
