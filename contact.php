@@ -29,7 +29,7 @@ $salt = "ForesiteGroupKMTooling";
         // All required fields have been filled, so construct the message
         $SendTo = "sales@kmtdelivers.com";
         $Subject = "Message From KM Tooling Website";
-        $Headers = "Bcc: mark@foresitegrp.com\r\n";
+        $Headers = "Bcc: foresitegroupllc@gmail.com\r\n";
         $Headers .= "From: Contact Form <moldeddimensions@foresitegrp.com>\r\n";
         $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
         
@@ -101,67 +101,8 @@ $salt = "ForesiteGroupKMTooling";
   </div>
 
   <div class="half-right">
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function ViewLargerMap(VLMa, map) {
-        var VLMui = document.createElement('a');
-        VLMui.style.cursor = 'pointer';
-        VLMui.href = 'https://www.google.com/maps/place/2143+County+Hwy+W,+Grafton,+WI+53024/@43.3548048,-87.9258743,13z/data=!3m1!4b1!4m2!3m1!1s0x8804e92f26641e1b:0x61d6a4681bb35da7';
-        VLMui.target = 'new';
-        VLMui.innerHTML = 'View larger map';
-        VLMui.style.marginLeft = '7px';
-        VLMa.appendChild(VLMui);
-      }
-
-      function initialize() {
-        var MyLatLng = new google.maps.LatLng(43.3548048,-87.9258743);
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: MyLatLng,
-          zoom: 15,
-          disableDefaultUI: true,
-          zoomControl: true,
-          zoomControlOptions: {
-            style: google.maps.ZoomControlStyle.SMALL,
-            position: google.maps.ControlPosition.RIGHT_BOTTOM
-          },
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-        map.set('styles', [
-          {
-            stylers: [
-              { "saturation": -100 },
-              { "visibility": "simplified" }
-            ]
-          }
-        ]);
-        
-        var marker = new google.maps.Marker({
-          position: MyLatLng,
-          map: map,
-          icon: 'images/map-pin.png'
-        });
-
-        var infowindow = new google.maps.InfoWindow({
-          content: '<div id="content"><div id="bodyContent"><strong>KM Tooling</strong><br>2143 County Highway W<br>Grafton, WI 53024<br><a href="https://www.google.com/maps/place/2143+County+Hwy+W,+Grafton,+WI+53024/@43.3548048,-87.9258743,13z/data=!3m1!4b1!4m2!3m1!1s0x8804e92f26641e1b:0x61d6a4681bb35da7" target="new">View larger map</a></div></div>'
-        });
-
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
-        });
-        
-        var vlmDiv = document.createElement('div');
-        var vlm = new ViewLargerMap(vlmDiv, map);
-        vlmDiv.index = 1;
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(vlmDiv);
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
     <div class="embed">
-      <div id="map-canvas"></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5802.1244969455975!2d-87.93027006771811!3d43.35480850055959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804ef6034ddeaf5%3A0x1ba07ff2e7f827cd!2sKM%20Tooling!5e0!3m2!1sen!2sus!4v1571160743300!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <br>
 
