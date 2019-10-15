@@ -11,7 +11,7 @@ function email($address, $name="") {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>KM Tooling<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
+    <title>KM Tooling<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
@@ -20,7 +20,7 @@ function email($address, $name="") {
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="inc/main.css">
 
@@ -78,7 +78,7 @@ function email($address, $name="") {
       </nav>
     </header>
 
-    <?php if ($PageTitle == "") { ?>
+    <?php if (!isset($PageTitle)) { ?>
     <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000">
       <p class="cycle-pager"></p>
       <div style="background: url(images/home-banner1.jpg) top center no-repeat;">
@@ -101,4 +101,4 @@ function email($address, $name="") {
       </div>
     </div>
     <?php } ?>
-    <div class="metal <?php if (($PageTitle == "") || ($MetalWhite != "")) echo "metal-home" ?>"></div>
+    <div class="metal <?php if ((!isset($PageTitle)) || (isset($MetalWhite))) echo "metal-home" ?>"></div>
