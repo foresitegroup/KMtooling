@@ -689,21 +689,13 @@ TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
 TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
-#map-canvas {
-  width: 600px;
-  height: 450px;
-}
-.gm-style img { max-width: none; }
-.gm-style label { width: auto; display: inline; }
-
 .embed {
   position: relative;
   padding-bottom: 100%; /* This is the aspect ratio */
   height: 0;
   overflow: hidden;
 }
-.embed iframe,
-.embed #map-canvas {
+.embed iframe {
   position: absolute;
   top: 0;
   left: 0;
