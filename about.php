@@ -87,7 +87,7 @@ include "header.php";
       Originally known as Knuth Machine &amp; Tool, the mold and tool shop started by Wilferd (Bill) Knuth in 1960 was originally located in Cedarburg, WI, as a supplier to local rubber molding companies.  In support of the growing Midwest manufacturing sector, Knuth Machine &amp; Tool relocated to a larger, more functional space in Grafton, WI, in 1984, to expand its machining services and better serve the needs of its growing rubber and cast polyurethane mold customers. Knuth Machine &amp; Tool transitioned to Bill's son, Don Knuth, in 1991.<br>
       <br>
 
-      After 50+ years of private ownership, Knuth Machine &amp; Tool was purchased in 2014 by Molded Dimensions, Inc., a long term customer located in nearby Port Washington, as a way to provide a suitable retirement strategy for Don Knuth and an efficient new ownership transition for the tool and die manufacturer.  The new company, named KM&nbsp;Tooling, is a wholly-owned subsidiary of Molded Dimensions, Inc.  The employees of KM&nbsp;Tooling are now part of the Molded Dimensions Employee Stock Ownership Plan (ESOP).
+      After 50+ years of private ownership, Knuth Machine &amp; Tool was purchased in 2014 by Molded Dimensions, a long term customer located in nearby Port Washington, as a way to provide a suitable retirement strategy for Don Knuth and an efficient new ownership transition for the tool and die manufacturer.  The new company, named KM&nbsp;Tooling, is a wholly-owned subsidiary of Molded Dimensions.
     </div>
 
     <div style="clear: both;"></div>
