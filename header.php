@@ -1,5 +1,6 @@
 <?php
 function email($address, $name="") {
+  $email = "";
   for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
   if ($name == "") $name = $email;
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
@@ -22,7 +23,7 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css">
+    <link rel="stylesheet" href="inc/main.css<?php echo "?".filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="inc/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="inc/bootstrap-collapse.js"></script>
