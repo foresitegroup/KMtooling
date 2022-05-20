@@ -8,7 +8,10 @@ include "header.php";
     <div class="half-left">
       <h1>Craftsmanship &amp; Quality since 1960</h1>
 
-      Working from concept through design, prototype through production, KM&nbsp;Tooling is an innovative resource for rubber molders, cast polyurethane molders, cold forgers, and die casting manufacturers. KM&nbsp;Tooling designs and manufactures precision rubber molds, cast polyurethane molds, cold forming dies, and trim dies. In addition to the mold and die work, KM&nbsp;Tooling provides custom, precision short-run machining services.
+      Working from concept through design, prototype through production, KM&nbsp;Tooling is an innovative resource for rubber molders, cast polyurethane molders, cold forgers, and die casting manufacturers. KM&nbsp;Tooling designs and manufactures precision rubber molds, cast polyurethane molds, cold forming dies, and trim dies. In addition to the mold and die work, KM&nbsp;Tooling provides custom, precision short-run machining services.<br>
+      <br>
+
+      <em>"We make the difficult part easy."</em> As part of the <a href="https://moldedgroup.com">Molded Dimensions Group</a>, we answer your most challenging questions concerning plastic, rubber and urethane parts and components.
     </div>
 
     <div class="half-right">

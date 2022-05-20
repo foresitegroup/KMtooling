@@ -36,9 +36,11 @@
       </footer>
     </div>
 
-    <footer>
+    <footer class="flex">
       <div id="copyright">
-        &copy; <?php echo date("Y"); ?> KM Tooling. All Rights Reserved. <a href="http://www.foresitegrp.com">Crafted by Foresite Group.</a>
+        <a href="https://moldedgroup.com"><strong>Molded Dimensions Group</strong></a><br>
+        &copy; <?php echo date("Y"); ?> KM Tooling. All Rights Reserved.<br>
+        <a href="http://www.foresitegrp.com">Crafted by Foresite Group.</a>
       </div>
 
       <div id="footer-menu">
@@ -49,8 +51,6 @@
 
         <a href="https://www.linkedin.com/company/km-tooling" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
       </div>
-
-      <div style="clear: both;"></div>
     </footer>
 
     <a href="#" id="backToTop" class="fa fa-arrow-up fa-2x"></a>
