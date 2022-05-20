@@ -568,19 +568,17 @@ A.spiff:hover .readmore, A.spiff:active .readmore {
   font-size: 230.79%;
 }
 
-#copyright {
-  float: left;
-  height: 41px;
-  line-height: 43px;
-  font-size: 85.71%;
-  color: #959595;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
 }
 
+#copyright { font-size: 85.71%; color: #959595; }
+
 #footer-menu {
-  float: right;
   text-align: right;
-  height: 41px;
-  line-height: 41px;
   font-size: 92.85%;
   font-weight: bold;
 }
@@ -589,6 +587,8 @@ A.spiff:hover .readmore, A.spiff:active .readmore {
   color: #000000;
   margin-left: 28px;
 }
+
+#footer-menu A:first-of-type { margin-left: 0; }
 
 #footer-menu A:hover, #footer-menu A:active {
   color: #1B75BB;
@@ -753,21 +753,11 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
     width: 100%;
     height: auto;
   }
-
-  #copyright {
-    width: 30%;
-    line-height: 1.2em;
-    height: 2.5em;
-    padding-top: 0.5em;
-  }
-
-  #footer-menu {
-    width: 70%;
-  }
 }
 
-@media only screen and (max-width: 768px) {
-  /* Tablet */
+@media only screen and (max-width: 700px) {
+  .flex { flex-direction: column-reverse; }
+  #copyright { text-align: center; padding-top: 0.5rem; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -866,24 +856,6 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
     border-bottom: 0.08em solid #555555;
   }
 
-  #copyright {
-    width: 35%;
-    padding-top: 0.9em;
-    font-size: 70%;
-  }
-
-  #footer-menu {
-    width: 65%;
-  }
-  
-  #footer-menu A:link, #footer-menu A:visited {
-    margin-left: 18px;
-  }
-
-  #footer-menu A:first-child {
-    margin-left: 0;
-  }
-
   .half-left,
   .half-right {
     float: none;
@@ -963,23 +935,6 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
   .spiff-mid {
     margin: 0 0 2em;
-  }
-
-  #copyright {
-    float: none;
-    width: 96%;
-    margin: 0 auto;
-    padding: 1em 0;
-    font-size: 80%;
-    text-align: center;
-  }
-
-  #copyright A {
-    display: block;
-  }
-
-  #footer-menu {
-    display: none;
   }
 
   #backToTop {
