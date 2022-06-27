@@ -27,7 +27,7 @@ $salt = "ForesiteGroupKMTooling";
             $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
           ) {
         // All required fields have been filled, so construct the message
-        $SendTo = "sales@kmtdelivers.com";
+        $SendTo = "kmtsales@kmtdelivers.com";
         $Subject = "Message From KM Tooling Website";
         $Headers = "Bcc: foresitegroupllc@gmail.com\r\n";
         $Headers .= "From: Contact Form <moldeddimensions@foresitegrp.com>\r\n";

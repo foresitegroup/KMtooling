@@ -12,7 +12,7 @@
         <div class="footer-mid">
           <h2>WORK WITH US</h2>
 
-          Please contact KMT for a quote or for more information at <a href="mailto:sales@kmtdelivers.com">sales@kmtdelivers.com</a> or<br>
+          Please contact KMT for a quote or for more information at <a href="mailto:kmtsales@kmtdelivers.com">kmtsales@kmtdelivers.com</a> or<br>
           <br>
           <br>
 
