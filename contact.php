@@ -27,10 +27,10 @@ $salt = "ForesiteGroupKMTooling";
             $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
           ) {
         // All required fields have been filled, so construct the message
-        $SendTo = "sales@kmtdelivers.com";
+        $SendTo = "kmtsales@kmtdelivers.com";
         $Subject = "Message From KM Tooling Website";
         $Headers = "Bcc: foresitegroupllc@gmail.com\r\n";
-        $Headers .= "From: Contact Form <moldeddimensions@foresitegrp.com>\r\n";
+        $Headers .= "From: Contact Form <donotreply@kmtdelivers.com>\r\n";
         $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
         
         $Message = "Message from " . $_POST[md5('fullname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
@@ -45,7 +45,24 @@ $salt = "ForesiteGroupKMTooling";
         
         $Message = stripslashes($Message);
         
-        mail($SendTo, $Subject, $Message, $Headers);
+        // mail($SendTo, $Subject, $Message, $Headers);
+
+        require_once "inc/swiftmailer/swift_required.php";
+
+        $sm = Swift_Message::newInstance();
+        $sm->setTo(array("kmtsales@kmtdelivers.com"));
+        $sm->setBcc(array("foresitegroupllc@gmail.com"));
+        $sm->setFrom(array("donotreply@foresitegrp.com" => "Contact Form"));
+        $sm->setReplyTo($_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])]);
+        $sm->setSubject("Message From KM Tooling Website");
+        $sm->setBody($Message);
+
+        // Create the Transport and Mailer
+        $transport = Swift_MailTransport::newInstance();
+        $mailer = Swift_Mailer::newInstance($transport);
+        
+        // Send it!
+        $result = $mailer->send($sm);
         
         echo "<strong>Your message has been sent!</strong><br>\n<br>\nThank you for your interest in KM Tooling.  You will be contacted shortly.";
       } else {
