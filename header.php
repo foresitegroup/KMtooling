@@ -40,7 +40,7 @@ function email($address, $name="") {
     <script type="text/javascript">DD_belatedPNG.fix('img, .png');</script>
     <![endif]-->
 
-    <!-- BEGIN Google Analytics -->
+    <!-- BEGIN Google Analytics - This will stop working July 1, 2023 -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -51,6 +51,15 @@ function email($address, $name="") {
       ga('send', 'pageview');
     </script>
     <!-- END Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PD1519EBW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1PD1519EBW');
+    </script>
   </head>
   <body>
 
